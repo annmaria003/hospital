@@ -1,0 +1,134 @@
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:background="#92C3F4"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <TextView
+            android:layout_margin="10dp"
+            android:text="SIGN UP"
+            android:textColor="#010912"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+
+        <TextView
+            android:text="NAME"
+            android:textColor="#010912"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/name"
+            android:layout_margin="15dp"
+            android:hint="Enter your name"
+            android:textColor="#010912"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="ADDRESS"
+            android:textColor="#010912"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_margin="15dp"
+            android:hint="Enter your address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="PINCODE"
+            android:textColor="#010912"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_margin="15dp"
+            android:hint="Enter your pincode"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="MOBILE NUMBER"
+            android:textColor="#010912"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:layout_margin="15dp"
+            android:inputType="number"
+            android:hint="Enter your mobile number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="USERNAME"
+            android:textColor="#010912"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/uname"
+            android:layout_margin="15dp"
+            android:hint="Enter your username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:text="PASSWORD"
+            android:textColor="#010912"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/pass"
+            android:layout_margin="15dp"
+            android:inputType="textPassword"
+            android:hint="Enter your password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text=" CONFIRM PASSWORD"
+            android:textColor="#010912"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <EditText
+            android:id="@+id/conpass"
+            android:layout_margin="15dp"
+            android:inputType="textPassword"
+            android:hint="Confirm your password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/signup"
+            android:layout_margin="10dp"
+            android:text="SIGN UP"
+            android:textColor="#EFF2F4"
+            android:background="#021223"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/backtologin"
+            android:layout_margin="10dp"
+            android:text="Back To Login"
+            android:textColor="#EFF2F4"
+            android:background="#021223"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+</ScrollView>
